@@ -1,0 +1,21 @@
+{
+    "name": "metra/bch_listener",
+    "description": "Simple Blockchain Provider Listener",
+    "authors": [
+        {
+            "name": "Metra Nimes",
+            "email": "metra.nimes@gmail.com"
+        }
+    ],
+    "require": {
+        "textalk/websocket": "^1.2",
+        "vlucas/phpdotenv": "^3.6",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"BCH_Listener\\Classes\\": "classes/",
+			"BCH_Listener\\Classes\\Providers\\": "classes/Providers/"
+		}
+	}
+}
